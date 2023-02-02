@@ -9,7 +9,7 @@ const upload = multer({ storage });
 aws.config.update({
   accessKeyId: "",
   secretAccessKey: "",
-  region: "us-east-1"
+  region: ""
 });
 
 const s3 = new aws.S3();
