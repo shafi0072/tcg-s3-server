@@ -7,8 +7,8 @@ const storage = multer.memoryStorage();
 const upload = multer({ storage });
 
 aws.config.update({
-  accessKeyId: "AKIA6EWASL26OHYHTZ2Y",
-  secretAccessKey: "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",
+  accessKeyId: "",
+  secretAccessKey: "",
   region: "us-east-1"
 });
 
